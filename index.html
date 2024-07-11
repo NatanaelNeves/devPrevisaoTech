@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      href="https://lh3.googleusercontent.com/k2cKxVJYSx7oI97zPizTllnLz4x1Q1esoWQqut4FK3wE-LAj1iU5OGy0pqQqkUE7dfDUyNFMjHEE9zUmKsS-GiTej1o9Jps5dQ7IDH5V"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Previsao do Tempo</title>
+  </head>
+  <body>
+    <div class="container-main">
+      <input class="input-city" type="text" placeholder="Digite o nome da cidade" />
+      <button onclick="clickButton()">
+        <img class="lupa" src="https://www.svgrepo.com/show/488200/find.svg" />
+      </button>
+
+      <div class="container-secondary">
+        <h2 class="city">Fortaleza</h2>
+        <p class="temp">30°<span>C</span></p>
+
+        <div class="smaller-container">
+          <img class="icon" src="https://openweathermap.org/img/wn/04n.png" />
+          <p class="description">Nuvens Dispersas</p>
+        </div>
+
+        <p class="temp-max">Temp max: 33°</p>
+        <p class="sensation">Sensação: 32°</p>
+        <p class="umidity">Umidade: 70%</p>
+        <p class="temp-min">Temp min: 24°</p>
+      </div>
+    </div>
+  </body>
+  <script src="./script.js"></script>
+</html>
+    
